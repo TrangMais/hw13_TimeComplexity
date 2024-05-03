@@ -39,5 +39,5 @@ public class MinimumGap {
 		}
 		return min;
 	}
-
+	
 }
