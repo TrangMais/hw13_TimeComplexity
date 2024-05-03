@@ -32,8 +32,8 @@ public class ChocolateFeast {
 
 		while (wrap >= m) {
 			newBarCount = wrap / m;
-			barCount = barCount + newBarCount; 				// barCount = barCount + wrap/m = barCount + barCount/m
-			wrap = (wrap % m) + newBarCount; 				// wrap = (wrap % m) + (wrap / m)
+			barCount = barCount + newBarCount; // barCount = barCount + wrap/m = barCount + barCount/m
+			wrap = (wrap % m) + newBarCount; // wrap = (wrap % m) + (wrap / m)
 		}
 		return barCount;
 	}
